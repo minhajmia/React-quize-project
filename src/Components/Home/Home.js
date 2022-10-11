@@ -26,7 +26,7 @@ const Home = () => {
     <div className="home-container">
       <div className="banner sm:flex-none md:flex lg:flex  justify-evenly items-center  py-5 ">
         <div className="banner-info mt-10 text-center md:w-2/5">
-          <h2 className="text-2xl font-bold text-slate-500">
+          <h2 className="text-2xl font-bold text-slate-500 text-center">
             Programming Quiz
           </h2>
           <p className=" mt-2">

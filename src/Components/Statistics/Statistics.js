@@ -35,6 +35,7 @@ const Statistics = () => {
           bottom: 5,
         }}
         barSize={20}
+        className={`sm:w-full md:w-[500px]`}
       >
         <XAxis dataKey="name" scale="point" padding={{ left: 10, right: 10 }} />
         <YAxis />

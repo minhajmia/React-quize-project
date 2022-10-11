@@ -1,8 +1,9 @@
 nav ul a{
     text-decoration: none;
-    margin-right: 12px;
-    font-size: 22px;
+    margin-left: 12px;
 }
 .active{
-    border-bottom: 3px solid salmon;
+    padding: 17px 5px;
+    border-bottom: 3px solid rgb(56, 54, 54);
+    background:rgba(167, 159, 158, 0.277);
 }

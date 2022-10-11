@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { ArrowLongRightIcon } from "@heroicons/react/24/solid";
 
 const Topic = ({ topic }) => {
   const { id, name, logo, total } = topic;
@@ -16,7 +17,8 @@ const Topic = ({ topic }) => {
             <Link to={`/topics/${id}`}>
               {" "}
               <button className="btn bg-slate-500 border-0">
-                Start Practice
+                Start Practice{" "}
+                <ArrowLongRightIcon className="h-6 w-6  text-red ml-2" />
               </button>
             </Link>
           </div>

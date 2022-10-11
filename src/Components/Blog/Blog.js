@@ -2,10 +2,10 @@ import React from "react";
 
 const Blog = () => {
   return (
-    <div className="mx-20 my-20 ">
+    <div className="md:mx-20 md:my-20  ">
       <div
         tabIndex={0}
-        className="collapse collapse-plus border border-base-300 bg-base-100 rounded-box"
+        className="collapse collapse-plus border border-base-300 bg-base-100 rounded-box my-5"
       >
         <div className="collapse-title text-xl font-medium">
           1. What is the purpose of react router ?
@@ -22,7 +22,7 @@ const Blog = () => {
       </div>
       <div
         tabIndex={0}
-        className="collapse collapse-plus border border-base-300 bg-base-100 rounded-box"
+        className="collapse collapse-plus border border-base-300 bg-base-100 rounded-box mb-5"
       >
         <div className="collapse-title text-xl font-medium">
           2. How does context api work ?

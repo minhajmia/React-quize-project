@@ -19,7 +19,7 @@ const Question = ({ SingleQuestion }) => {
     }
   };
   return (
-    <div className="question-container bg-slate-300 text-gray-600 mb-5 rounded-md w-1/2 mx-auto p-5">
+    <div className="question-container bg-slate-300 text-gray-600 mb-5 rounded-md w-full md:w-1/2 mx-auto p-5">
       <div className="question-title flex justify-between">
         <div className="question-name">{question}</div>
         <div className="question-answer">

@@ -30,10 +30,10 @@ const Home = () => {
             Programming Quiz
           </h2>
           <p className=" mt-2">
-            A friendly job relate programming questions website . It is very{" "}
+            A friendly job relate programming quiz related website . It is{" "}
             appropriate for fresher, seasoned programmer or others. Build your
-            knowledge by testing these Questions. Try to capable yourself for
-            the next programmer.
+            knowledge by testing these quiz. Try to capable yourself for the
+            next programming level.
           </p>
           <button
             onClick={allQuiz}

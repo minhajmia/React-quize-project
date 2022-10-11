@@ -28,7 +28,7 @@ const App = () => {
         },
         { path: "blog", element: <Blog /> },
         {
-          path: "/topics/:topicId",
+          path: "/topic/:topicId",
           loader: ({ params }) =>
             fetch(
               `https://openapi.programming-hero.com/api/quiz/${params.topicId}`

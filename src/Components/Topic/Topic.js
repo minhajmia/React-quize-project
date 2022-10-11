@@ -14,7 +14,7 @@ const Topic = ({ topic }) => {
           <h2 className="card-title">{name}</h2>
           <p>Total Question: {total}</p>
           <div className="card-actions">
-            <Link to={`/topics/${id}`}>
+            <Link to={`/topic/${id}`}>
               {" "}
               <button className="btn capitalize text-1xl bg-slate-500 border-0">
                 Start Practice{" "}

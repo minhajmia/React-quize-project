@@ -22,7 +22,7 @@ const Statistics = () => {
   return (
     <div className="text-center flex justify-center flex-col items-center mt-20">
       <h2 className="text-3xl font-bold text-slate-500 mb-10 sm-w-full">
-        Total Questions
+        Total Quiz
       </h2>
       <BarChart
         width={500}

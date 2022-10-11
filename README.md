@@ -8,7 +8,7 @@ This project is about some programming Quiz those will help any freshers program
 
 ## Project Link
 
-https://github.com/programming-hero-web-course2/b6-quiz-crackerz-minhajmia
+https://rainbow-lamington-fbcf99.netlify.app/
 
 ## Tech Stack
 

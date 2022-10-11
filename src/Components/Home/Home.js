@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import img from "../../image/banner.png";
 import Topic from "../Topic/Topic";
-
+import Swal from "sweetalert2";
 const Home = () => {
   const [topics, setTopics] = useState([]);
   useEffect(() => {
@@ -10,6 +10,18 @@ const Home = () => {
       .then((data) => setTopics(data.data));
   }, []);
 
+  // all quiz btn
+  const allQuiz = () => {
+    Swal.fire({
+      title: "Javascript, React, Css, Git",
+      showClass: {
+        popup: "animate__animated animate__fadeInDown",
+      },
+      hideClass: {
+        popup: "animate__animated animate__fadeOutUp",
+      },
+    });
+  };
   return (
     <div className="home-container">
       <div className="banner sm:flex-none md:flex lg:flex  justify-evenly items-center  py-5 ">
@@ -23,7 +35,12 @@ const Home = () => {
             knowledge by testing these Questions. Try to capable yourself for
             the next programmer.
           </p>
-          <button className="btn bg-slate-500 mt-5">Quiz Topics </button>
+          <button
+            onClick={allQuiz}
+            className="btn bg-slate-500 mt-5 capitalize"
+          >
+            Quiz Topics{" "}
+          </button>
         </div>
         <div className="banner-img ">
           <img className="" src={img} alt="" />

@@ -1,10 +1,8 @@
-nav  a{
+nav ul a{
     text-decoration: none;
-    margin-right: 15px;
+    margin-right: 12px;
+    font-size: 22px;
 }
-
-/* .active{
-    background-color: rgb(180, 176, 176);
+.active{
     border-bottom: 3px solid salmon;
-    padding: 22px 15px ;
-} */
+}

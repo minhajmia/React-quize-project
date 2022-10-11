@@ -16,7 +16,7 @@ const Topic = ({ topic }) => {
           <div className="card-actions">
             <Link to={`/topics/${id}`}>
               {" "}
-              <button className="btn bg-slate-500 border-0">
+              <button className="btn capitalize text-1xl bg-slate-500 border-0">
                 Start Practice{" "}
                 <ArrowLongRightIcon className="h-6 w-6  text-red ml-2" />
               </button>

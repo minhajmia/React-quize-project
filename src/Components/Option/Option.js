@@ -24,9 +24,10 @@ const Option = ({ option, correctAnswer }) => {
           onClick={selectCorrectAnswer}
         >
           <input
-            type="checkbox"
+            type="radio"
             name="radio-6"
-            className="checkbox bg-slate-200 checked:bg-slate-700"
+            className="radio bg-slate-200 checked:bg-slate-700"
+            checked
           />
           <span className="label-text ml-3 ">{option}</span>
         </label>

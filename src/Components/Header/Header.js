@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 
 const Header = () => {
   return (
-    <div className="header-container bg-slate-300  px-20 py-1   md:flex justify-between items-center">
+    <div className="header-container bg-slate-300  px-20   md:flex justify-between items-center">
       <div className="logo  font-bold md:text-2xl text-slate-500 text-center text-1xl mb-5 md:mb-0">
         Programming Quiz
       </div>

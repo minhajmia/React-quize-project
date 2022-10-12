@@ -16,7 +16,7 @@ https://rainbow-lamington-fbcf99.netlify.app/
 
 **Client:** Html, Css, JavaScript, React, TailwindCss, daisyUi.
 
-**Server:** Node,
+**Server:** NodeJs,
 
 ## Author:- Minhaj mia
 

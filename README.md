@@ -14,7 +14,7 @@ https://rainbow-lamington-fbcf99.netlify.app/
 
 ## Tech Stack
 
-**Client:** React, js, TailwindCSS, Daisyui
+**Client:** Html, Css, JavaScript, React, TailwindCss, daisyUi.
 
 **Server:** Node,
 

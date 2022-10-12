@@ -4,14 +4,12 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Option from "../Option/Option";
 
-const Question = ({ SingleQuestion }) => {
+const Question = ({ SingleQuestion, idx }) => {
   const { correctAnswer, id, question, options } = SingleQuestion;
   // correct answer toastify
   const notify = () => toast(correctAnswer);
   // select correct answer
   const selectCorrectAnswer = (option) => {
-    // console.log(option);
-    // // console.log("option");
     if (option === correctAnswer) {
       alert("correct");
     } else {
@@ -21,7 +19,9 @@ const Question = ({ SingleQuestion }) => {
   return (
     <div className="question-container bg-slate-300 text-gray-600 mb-5 rounded-md w-full md:w-1/2 mx-auto p-5">
       <div className="question-title flex justify-between">
-        <div className="question-name">{question}</div>
+        <div className="question-name">
+          Quiz {idx + 1}: {question}
+        </div>
         <div className="question-answer">
           {" "}
           <EyeIcon onClick={notify} className="h-6 w-6  text-red ml-2" />
